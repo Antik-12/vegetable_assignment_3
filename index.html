@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- cloudflare -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <!-- font awesome cdn -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  
@@ -59,7 +61,7 @@
      
     </nav>
     <!-- banner -->
-     <div class="py-35">
+     <!-- <div class="py-35">
       <div class="text-center">
         <h2 class="lg:text-8xl text-6xl py-10">Freshness <span class="text-green-500">You Can <br> Count</span> On, Prices You’ll Love!</h2>
         <p class="lg:text-4xl text-2xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
@@ -70,7 +72,23 @@
        
        <img src="./c2-assets/hero-vegetables.png" alt="" class="mx-auto " >
       </div>
-    </div> 
+    </div>  -->
+
+    <div class="py-35">
+      <div class="text-center">
+        <h2 class="lg:text-8xl text-6xl py-10 animate__animated animate__fadeInDown animate__duration-2000">
+          Freshness <span class="text-green-500">You Can <br> Count</span> On, Prices You’ll Love!
+        </h2>
+        <p class="lg:text-4xl text-2xl animate__animated animate__fadeInUp animate__duration-2000">
+          Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!
+        </p>
+      </div>
+  
+      <div class="flex justify-center">
+        <img src="./c2-assets/hero-vegetables.png" alt="" 
+          class="mx-auto animate__animated animate__zoomIn animate__duration-2000">
+      </div>
+    </div>
 
     
     
@@ -84,6 +102,10 @@
     
 
     <!-- services card -->
+    
+
+   
+     <!-- services card -->
      <section class="lg:text-left lg:ml-20 ml-5">
       <h2 class=" text-6xl text-green-700">
         Services
@@ -149,11 +171,173 @@
 
      </section>
 
-   
-
+    <section class="py-20 bg-[#EFEBE3] relative top-20">
+      <div class="lg:text-left lg:ml-20 mt-4 mb-8 ml-6 mr-6">
+        <h2 class="text-4xl lg:text-6xl text-green-700 ">Popular Products</h2>
     
+        <!-- Main Card and Additional Cards Container -->
+        <div class="flex flex-col lg:flex-row gap-10 py-10 lg:mr-20">
+          <!-- Main Card -->
+          <div class="card bg-gradient-to-b from-green-100 via-green-200 to-green-300 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./c2-assets/vegetable-offer.png" alt="Service" class="w-32 h-32 rounded-full object-contain bg-white p-5" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">30% off</h2>
+              <p>Discover a world of treats, toys, and essentials handpicked for</p>
+              <button class="bg-white w-20 h-10 rounded-xl">Buy Now</button>
+            </div>
+          </div>
+    
+          <!-- Additional Cards Grid -->
+          <div class="w-full px-4 sm:px-0">
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mx-auto max-w-[600px] sm:max-w-none">
+              <div class="w-full h-[118px] bg-white shadow-md  rounded-xl">
+                
+               <div class="flex px-5 py-5">
+                <div ><img src="./c2-assets/onion.png" alt="" class="bg-slate-500 rounded-xl" ></div>
 
+                <!-- icon -->
 
+                <div ><i class="fa-solid fa-star mr-2 text-amber-500 ml-2"></i></div>
+
+                <!-- text -->
+                 <div>
+                  <h3>4.5</h3>
+                  <p>Onion 1 KG</p>
+                  <h3>$39.99</h3>
+                </div>
+               </div>
+
+               
+              </div>
+              <div class="w-full h-[118px] bg-white shadow-md flex rounded-xl">
+                <div class="flex px-5 py-5">
+                  <div ><img src="./c2-assets/tomato.png" alt="" class="bg-slate-500 rounded-xl" ></div>
+  
+                  <!-- icon -->
+  
+                  <div ><i class="fa-solid fa-star mr-2 text-amber-500 ml-2"></i></div>
+  
+                  <!-- text -->
+                   <div>
+                    <h3>4.5</h3>
+                    <p>Tomato 500 KG</p>
+                    <h3>$39.98</h3>
+                  </div>
+                 </div>
+              </div>
+              <div class="w-full h-[118px] bg-white shadow-md flex rounded-xl">
+                <div class="flex px-5 py-5">
+                  <div ><img src="./c2-assets/potato.png" alt="" class="bg-slate-500 rounded-xl" ></div>
+  
+                  <!-- icon -->
+  
+                  <div ><i class="fa-solid fa-star mr-2 text-amber-500 ml-2"></i></div>
+  
+                  <!-- text -->
+                   <div>
+                    <h3>4.5</h3>
+                    <p>Onion 1 KG</p>
+                    <h3>$39.99</h3>
+                  </div>
+                 </div>
+              </div>
+              <div class="w-full h-[118px] bg-white shadow-md flex rounded-xl"> <div class="flex px-5 py-5">
+                <div ><img src="./c2-assets/tomato.png" alt="" class="bg-slate-500 rounded-xl" ></div>
+
+                <!-- icon -->
+
+                <div ><i class="fa-solid fa-star mr-2 text-amber-500 ml-2"></i></div>
+
+                <!-- text -->
+                 <div>
+                  <h3>4.5</h3>
+                  <p>Onion 1 KG</p>
+                  <h3>$39.99</h3>
+                </div>
+               </div></div>
+              <div class="w-full h-[118px] bg-white shadow-md flex rounded-xl">
+                <div class="flex px-5 py-5">
+                  <div ><img src="./c2-assets/onion.png" alt="" class="bg-slate-500 rounded-xl" ></div>
+  
+                  <!-- icon -->
+  
+                  <div ><i class="fa-solid fa-star mr-2 text-amber-500 ml-2"></i></div>
+  
+                  <!-- text -->
+                   <div>
+                    <h3>4.5</h3>
+                    <p>Onion 1 KG</p>
+                    <h3>$39.99</h3>
+                  </div>
+                 </div>
+              </div>
+              <div class="w-full h-[118px] bg-white shadow-md flex rounded-xl"> <div class="flex px-5 py-5">
+                <div ><img src="./c2-assets/tomato.png" alt="" class="bg-slate-500 rounded-xl" ></div>
+
+                <!-- icon -->
+
+                <div ><i class="fa-solid fa-star mr-2 text-amber-500 ml-2"></i></div>
+
+                <!-- text -->
+                 <div>
+                  <h3>4.5</h3>
+                  <p>Onion 1 KG</p>
+                  <h3>$39.99</h3>
+                </div>
+               </div></div>
+              <div class="w-full h-[118px] bg-white shadow-md flex rounded-xl"> <div class="flex px-5 py-5">
+                <div ><img src="./c2-assets/onion.png" alt="" class="bg-slate-500 rounded-xl" ></div>
+
+                <!-- icon -->
+
+                <div ><i class="fa-solid fa-star mr-2 text-amber-500 ml-2"></i></div>
+
+                <!-- text -->
+                 <div>
+                  <h3>4.5</h3>
+                  <p>Onion 1 KG</p>
+                  <h3>$39.99</h3>
+                </div>
+               </div></div>
+              <div class="w-full h-[118px] bg-white shadow-md flex rounded-xl"> <div class="flex px-5 py-5">
+                <div ><img src="./c2-assets/potato.png" alt="" class="bg-slate-500 rounded-xl" ></div>
+
+                <!-- icon -->
+
+                <div ><i class="fa-solid fa-star mr-2 text-amber-500 ml-2"></i></div>
+
+                <!-- text -->
+                 <div>
+                  <h3>4.5</h3>
+                  <p>Onion 1 KG</p>
+                  <h3>$39.99</h3>
+                </div>
+               </div></div>
+              
+            <div class="hidden sm:block w-full h-[118px] bg-white shadow-md rounded-xl">
+              <span class="block   !important">
+                <div class="flex py-5 px-5">
+                  <div ><img src="./c2-assets/onion.png" alt="" class="bg-slate-500 rounded-xl" ></div>
+  
+                  <!-- icon -->
+  
+                  <div ><i class="fa-solid fa-star mr-2 text-amber-500 ml-2"></i></div>
+  
+                  <!-- text -->
+                   <div>
+                    <h3>4.5</h3>
+                    <p>Onion 1 KG</p>
+                    <h3>$39.99</h3>
+                  </div>
+                 </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
    </main>
 
